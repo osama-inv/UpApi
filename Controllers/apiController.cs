@@ -27,5 +27,11 @@ namespace UpApi.Controllers
         {
             return GetPerson();
         }
+        [HttpGet("new")]
+        public string GetH()
+        {
+            var rng = new Random();
+            return PeopleNames[rng.Next(PeopleNames.Length)];
+        }
     }
 }
