@@ -1,0 +1,6 @@
+@UpApi_HostAddress = http://localhost:5144
+
+GET {{UpApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
